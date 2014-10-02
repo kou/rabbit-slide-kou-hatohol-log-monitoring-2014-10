@@ -1,0 +1,25 @@
+= Hatoholのログ監視機能 2014/10版
+
+: author
+   須藤功平
+: institution
+   株式会社クリアコード
+: date
+   2014/10/07
+: allotted-time
+   60m
+: theme
+   clear-code
+
+= 内容
+
+  * Hatoholのログ監視機能の概要
+    * ただし2014年10月時点での情報
+  * 詳細はWikiを参照
+    * (('note:https://github.com/project-hatohol/hatohol/wiki/Log-monitoring'))
+
+= 解決したい問題
+
+Zabbixのログ監視機能の問題点
+
+  * xxx

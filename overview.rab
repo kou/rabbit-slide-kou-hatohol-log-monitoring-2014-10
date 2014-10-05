@@ -18,6 +18,10 @@
   * 詳細はWikiを参照
     * (('note:https://github.com/project-hatohol/hatohol/wiki/Log-monitoring'))
 
+= 目的
+
+  * 現状を共有すること
+
 = 解決したい問題
 
 Zabbixのログ監視機能の問題点
@@ -26,3 +30,14 @@ Zabbixのログ監視機能の問題点
   * 大量のログだとDBの負荷が高い
   * エージェント・サーバー間の\n
     通信が安全ではない
+
+= Zabbix：高CPU使用率
+
+  # image
+  # src = images/zabbix-high-cpu-usage.svg
+  # relative_width = 100
+
+== スライドプロパティー
+
+: enable-title-on-image
+   false

@@ -242,3 +242,30 @@ Zabbixのログ監視機能の問題点
 
 : enable-title-on-image
    false
+
+= 課題：導入後の設定が面倒
+
+  * 設定は各ノードで行う
+    * Zabbixはサーバーで一括管理
+    * fluentd-server：設定を配布
+  * Fluentdの設定GUIがない
+    * fluentd-ui：いくつか設定可能
+    * ↑ローカルのFluentdを設定
+
+= 設定はどこから実施する？
+
+  * 前提
+    * Hatohol利用者はZabbixに\n
+      直接アクセスできないかもしれない
+    * 監視環境内のノードにアクセス不可
+  * 全部Hatohol経由で設定？
+    * Zabbixも？Fluentdも？Redmineも？
+
+= 今後の方向
+
+  * 課題
+    * ホスト管理機能と連携することで\n
+      解決可能？
+  * 改善
+    * 実際に使ってフィードバック
+    * 使ってもらってフィードバック

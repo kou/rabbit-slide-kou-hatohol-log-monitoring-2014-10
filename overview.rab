@@ -72,7 +72,7 @@ Zabbixのログ監視機能の問題点
     * フィルター・転送
     * 出力
 
-= 解決方法：高CPU負荷
+= 解決方法：高CPU使用率
 
   * サーバーのCPU使用率が高い
     * 処理を複数ノードで分散
@@ -83,6 +83,24 @@ Zabbixのログ監視機能の問題点
 
   # image
   # src = images/fluentd-distributed-monitor.svg
+  # relative_width = 100
+
+== スライドプロパティー
+
+: enable-title-on-image
+   false
+
+= 解決方法：高DB負荷
+
+  * (('note:サーバーのCPU使用率が高い'))
+  * 大量のログだとDBの負荷が高い
+    * 対象ログのみ保存
+  * (('note:エージェント・サーバー間の通信が安全ではない'))
+
+= 対象ログのみ保存
+
+  # image
+  # src = images/hatohol-store-only-target-logs.svg
   # relative_width = 100
 
 == スライドプロパティー

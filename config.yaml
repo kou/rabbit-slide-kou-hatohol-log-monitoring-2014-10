@@ -4,12 +4,12 @@ base_name: overview
 tags:
 - rabbit
 - hatohol
-presentation_date: 2014-10-7
+presentation_date: 2014-10-07
 version: 2014.10.7.0
 licenses:
 - CC0-1.0
-slideshare_id: 
-speaker_deck_id: 
+slideshare_id: hatohol-log-monitoring-2014-10
+speaker_deck_id: 10ban
 ustream_id: 
 vimeo_id: 
 youtube_id: 
@@ -18,5 +18,5 @@ author:
   name: Kouhei Sutou
   email: kou@clear-code.com
   rubygems_user: kou
-  slideshare_user: 
-  speaker_deck_user: 
+  slideshare_user: kou
+  speaker_deck_user: kou

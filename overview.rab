@@ -63,3 +63,30 @@ Zabbixのログ監視機能の問題点
 
 : enable-title-on-image
    false
+
+= 解決方針
+
+  * Fluentdと連携
+  * Fluentd：データ配送システム
+    * ログ収集
+    * フィルター・転送
+    * 出力
+
+= 解決方法：高CPU負荷
+
+  * サーバーのCPU使用率が高い
+    * 処理を複数ノードで分散
+  * (('note:大量のログだとDBの負荷が高い'))
+  * (('note:エージェント・サーバー間の通信が安全ではない'))
+
+= 処理を分散
+
+  # image
+  # src = images/fluentd-distributed-monitor.svg
+  # relative_width = 100
+
+== スライドプロパティー
+
+: enable-title-on-image
+   false
+

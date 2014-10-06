@@ -108,3 +108,22 @@ Zabbixのログ監視機能の問題点
 : enable-title-on-image
    false
 
+= 解決方法：安全でない通信
+
+  * (('note:サーバーのCPU使用率が高い'))
+  * (('note:大量のログだとDBの負荷が高い'))
+  * エージェント・サーバー間の\n
+    通信が安全ではない
+    * 通信路を暗号化
+
+= 通信路を暗号化
+
+  # image
+  # src = images/hatohol-secure-connection-overview.svg
+  # relative_width = 100
+
+== スライドプロパティー
+
+: enable-title-on-image
+   false
+

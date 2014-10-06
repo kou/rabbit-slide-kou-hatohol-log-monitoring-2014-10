@@ -41,3 +41,14 @@ Zabbixのログ監視機能の問題点
 
 : enable-title-on-image
    false
+
+= Zabbix：高DB負荷
+
+  # image
+  # src = images/zabbix-high-db-load.svg
+  # relative_width = 100
+
+== スライドプロパティー
+
+: enable-title-on-image
+   false

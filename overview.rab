@@ -52,3 +52,14 @@ Zabbixのログ監視機能の問題点
 
 : enable-title-on-image
    false
+
+= Zabbix：安全でない通信
+
+  # image
+  # src = images/zabbix-insecure-connection.svg
+  # relative_width = 100
+
+== スライドプロパティー
+
+: enable-title-on-image
+   false

@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="zabbix-high-cpu-usage.svg">
+   sodipodi:docname="zabbix-insecure-connection.svg">
   <defs
      id="defs4">
     <marker
@@ -2049,7 +2049,7 @@
        x2="23.233509"
        y1="34.463955"
        x1="24.349752"
-       gradientTransform="translate(-5.0885707e-7,0.404062)"
+       gradientTransform="translate(-5.0885709e-7,0.404062)"
        gradientUnits="userSpaceOnUse"
        id="linearGradient4060"
        xlink:href="#linearGradient4386-7"
@@ -5739,22 +5739,22 @@
     <rect
        style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect9295"
-       width="407.53613"
-       height="289.91379"
-       x="329.8645"
-       y="370.48581"
+       width="328.53613"
+       height="110.91379"
+       x="408.8645"
+       y="392.48581"
        rx="5"
        ry="5" />
     <path
        sodipodi:nodetypes="cc"
        inkscape:connector-curvature="0"
        id="path8565"
-       d="m 518,469.36218 122.83705,0"
-       style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)" />
+       d="m 573.45374,448.14461 94.97145,0"
+       style="fill:none;stroke:#000000;stroke-width:1.5462997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)" />
     <g
        inkscape:label="Layer 1"
        id="g8567"
-       transform="matrix(0.98898752,0,0,0.98898752,539.2305,434.98004)">
+       transform="matrix(0.76463556,0,0,0.76463556,589.8681,421.56207)">
       <g
          transform="matrix(0.02330573,0,0,0.01227058,44.47891,44.41691)"
          id="g8569"
@@ -5836,7 +5836,7 @@
     <g
        id="layer1-2"
        inkscape:label="Layer 1"
-       transform="matrix(1.2981766,0,0,1.2981766,555.33293,452.84978)">
+       transform="matrix(1.0036851,0,0,1.0036851,602.31769,435.37805)">
       <g
          id="g1772">
         <path
@@ -5916,7 +5916,7 @@
     <g
        id="layer1-9"
        inkscape:label="Layer 1"
-       transform="matrix(1.6863561,0,0,1.6863561,344.03447,468.61677)">
+       transform="matrix(1.6863561,0,0,1.6863561,424.03447,408.61677)">
       <g
          inkscape:r_cy="true"
          inkscape:r_cx="true"
@@ -7021,16 +7021,16 @@
        sodipodi:linespacing="125%"
        id="text6543"
        y="311.87689"
-       x="532.34998"
+       x="572.34998"
        style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
          y="311.87689"
-         x="532.34998"
+         x="572.34998"
          id="tspan6545"
          sodipodi:role="line">Zabbix</tspan><tspan
          id="tspan6547"
          y="355.57614"
-         x="532.34998"
+         x="572.34998"
          sodipodi:role="line">サーバー</tspan></text>
     <g
        transform="translate(101.00001,405.02539)"
@@ -7502,20 +7502,20 @@
          sodipodi:role="line">ログ</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
-       d="m 164,430.36218 145,46"
+       d="m 164,430.36218 223,3"
        id="path7005"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
-       d="m 162,514.36218 145.46447,0"
+       d="m 162,514.36218 223.46447,-56"
        id="path8219"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <path
        inkscape:connector-curvature="0"
        id="path8403"
-       d="m 164,601.40994 145,-46"
+       d="m 164,601.40994 223,-112"
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
        sodipodi:nodetypes="cc" />
     <g
@@ -7765,7 +7765,7 @@
          style="fill:none;stroke:#ffffff;stroke-width:0.99999982;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
     </g>
     <g
-       transform="matrix(0.98898752,0,0,0.98898752,436.15585,456.15161)"
+       transform="matrix(0.76463556,0,0,0.76463556,510.17595,437.93086)"
        id="g8469"
        inkscape:label="Layer 1">
       <g
@@ -7849,7 +7849,7 @@
     <g
        inkscape:label="Layer 1"
        id="g8501"
-       transform="matrix(0.98898752,0,0,0.98898752,448.15585,444.15161)">
+       transform="matrix(0.76463556,0,0,0.76463556,519.45375,428.65306)">
       <g
          transform="matrix(0.02330573,0,0,0.01227058,44.47891,44.41691)"
          id="g8503"
@@ -7929,7 +7929,7 @@
          style="fill:none;stroke:#ffffff;stroke-width:0.99999982;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
     </g>
     <g
-       transform="matrix(0.98898752,0,0,0.98898752,462.15585,432.15161)"
+       transform="matrix(0.76463556,0,0,0.76463556,530.27785,419.37527)"
        id="g8533"
        inkscape:label="Layer 1">
       <g
@@ -8011,7 +8011,7 @@
          ry="0" />
     </g>
     <g
-       transform="matrix(0.98898752,0,0,0.98898752,653.77107,450.51557)"
+       transform="matrix(0.76463556,0,0,0.76463556,678.42513,433.57336)"
        id="g8674"
        inkscape:label="Layer 1">
       <g
@@ -8095,7 +8095,7 @@
     <g
        inkscape:label="Layer 1"
        id="g8698"
-       transform="matrix(0.98898752,0,0,0.98898752,667.77107,438.51557)">
+       transform="matrix(0.76463556,0,0,0.76463556,689.24922,424.29556)">
       <g
          transform="matrix(0.02330573,0,0,0.01227058,44.47891,44.41691)"
          id="g8700"
@@ -8174,56 +8174,30 @@
          id="rect8720"
          style="fill:none;stroke:#ffffff;stroke-width:0.99999982;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
     </g>
-    <text
-       xml:space="preserve"
-       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="136"
-       y="663.36218"
-       id="text8738"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan8740"
-         x="136"
-         y="663.36218">転送のみ</tspan></text>
-    <text
-       xml:space="preserve"
-       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="483"
-       y="415.36218"
-       id="text8742"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan8744"
-         x="483"
-         y="415.36218">内容チェック</tspan></text>
     <rect
        ry="5"
        rx="5"
-       y="563.48584"
-       x="349.8645"
-       height="88.913818"
-       width="251.53613"
-       id="rect21345"
+       y="585.48584"
+       x="235.8645"
+       height="64.913818"
+       width="186.53613"
+       id="rect21373"
        style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#ce5c00;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
     <text
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       x="479.3125"
-       y="599.36218"
+       x="328.3125"
+       y="629.36218"
        id="text8746"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         id="tspan8748"
-         x="479.3125"
-         y="599.36218">全監視対象の</tspan><tspan
-         sodipodi:role="line"
-         x="479.3125"
-         y="639.36218"
-         id="tspan8750">ログをチェック</tspan></text>
+         x="328.3125"
+         y="629.36218"
+         id="tspan8750">平文で転送</tspan></text>
     <g
        inkscape:label="Layer 1"
        id="layer1-17"
-       transform="translate(447.70189,509.88261)">
+       transform="translate(301.70189,529.88261)">
       <path
          transform="matrix(2.182912,0,0,2.182912,-13.50372,-14.35012)"
          d="m 27,25.53125 c 0,1.88122 -4.337241,3.40625 -9.6875,3.40625 -5.350259,0 -9.6875,-1.52503 -9.6875,-3.40625 0,-1.88122 4.337241,-3.40625 9.6875,-3.40625 5.350259,0 9.6875,1.52503 9.6875,3.40625 z"
@@ -8279,16 +8253,16 @@
     <rect
        style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#a40000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
        id="rect9293"
-       width="255.97273"
-       height="67.882248"
-       x="619.24176"
-       y="574.11536"
+       width="302.97272"
+       height="67.882263"
+       x="448.24176"
+       y="584.11536"
        rx="5"
        ry="5" />
     <g
        inkscape:label="Layer 1"
        id="layer1-98"
-       transform="translate(630.31828,581.69331)">
+       transform="translate(459.31828,591.69331)">
       <g
          id="g7435"
          transform="matrix(1.566667,0,0,1.566667,-8.925566,-23.94764)">
@@ -8388,13 +8362,13 @@
     <text
        sodipodi:linespacing="125%"
        id="text8871"
-       y="617.28754"
-       x="771.89178"
+       y="627.28754"
+       x="624.89178"
        style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        xml:space="preserve"><tspan
          id="tspan8875"
-         y="617.28754"
-         x="771.89178"
-         sodipodi:role="line">高CPU使用率</tspan></text>
+         y="627.28754"
+         x="624.89178"
+         sodipodi:role="line">安全でない通信</tspan></text>
   </g>
 </svg>

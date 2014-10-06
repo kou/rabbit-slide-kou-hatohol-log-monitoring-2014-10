@@ -127,3 +127,14 @@ Zabbixのログ監視機能の問題点
 : enable-title-on-image
    false
 
+= 通信路を暗号化（AMQP）
+
+  # image
+  # src = images/hatohol-secure-connection-amqp.svg
+  # relative_width = 100
+
+== スライドプロパティー
+
+: enable-title-on-image
+   false
+

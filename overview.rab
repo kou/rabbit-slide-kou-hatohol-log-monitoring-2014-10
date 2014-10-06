@@ -138,3 +138,107 @@ Zabbixのログ監視機能の問題点
 : enable-title-on-image
    false
 
+= 解決
+
+  * (('note:サーバーのCPU使用率が高い'))
+    * 処理を複数ノードで分散
+  * (('note:大量のログだとDBの負荷が高い'))
+    * 対象ログのみ保存
+  * (('note:エージェント・サーバー間の通信が安全ではない'))
+    * 通信路を暗号化\n
+      (('note:（Hatohol・DB間は安全ではない）'))
+
+= 課題
+
+  * 導入が面倒
+  * 導入後の設定が面倒
+
+= 課題：導入が面倒
+
+  * ノード数が増える
+  * TLSの設定が増える
+
+= ノード数：Zabbix
+
+  * サーバー：数台
+  * エージェント：ホスト数
+
+= ノード数：Hatohol
+
+  * 同じ
+    * サーバー：1台
+    * 収集用Fluentd：ホスト数
+  * 増加
+    * RabbitMQ：1台
+    * 監視用Fluentd：数台
+    * AMQPコンシューマーFluentd：数台
+
+= TLSの設定
+
+  * 認証局を作成
+  * 各ノード用の鍵を作成
+  * 認証局で公開鍵証明書を発行
+  * ↑を使う設定を追加
+
+= 認証局を作成
+
+  [ca]# hatohol-ca-initialize
+
+= ノード用の鍵を作成
+
+  # クライアント用
+  [client1]% hatohol-client-certificate-create \
+    --host-name client1.example.com
+  # サーバー用
+  [server1]% hatohol-server-certificate-create \
+    --host-name server1.example.com
+
+= 証明書を発行
+
+  # クライアント用
+  [client1]% scp req.pem ca:
+  [ca]# hatohol-ca-sign-client-certificate \
+    /../req.pem
+  # サーバー用
+  [server1]% scp req.pem ca:
+  [ca]# hatohol-ca-sign-server-certificate \
+    /../req.pem
+
+= 設定：RabbitMQ
+
+  [
+    {rabbit, [
+      {ssl_listeners, [5671]},
+      {ssl_options, [
+        {cacertfile, "/etc/rabbitmq/ca-cert.pem"},
+        {certfile, "/etc/rabbitmq/server-cert.pem"},
+        {keyfile, "/etc/rabbitmq/key.pem"},
+        {verify, verify_peer},
+        {fail_if_no_peer_cert, false}
+      ]}
+    ]}
+  ].
+
+= 設定：Fluentd
+
+  <match hatohol.**>
+    type hatohol
+
+    url "amqps://user:password@rabbitmq.example.com/hatohol"
+
+    tls_cert "/../client-cert.pem"
+    tls_key "/../key.pem"
+    tls_ca_certificates ["/../ca-cert.pem"]
+  </match>
+
+= 設定：Hatohol
+
+  # image
+  # src = images/hatohol-hapi-json-add-ui.png
+  # relative_height = 100
+  # reflect_ratio = 0.1
+
+== スライドプロパティー
+
+: enable-title-on-image
+   false

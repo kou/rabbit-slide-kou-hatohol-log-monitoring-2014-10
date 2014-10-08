@@ -7093,13 +7093,13 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="462.62327"
+     inkscape:cx="464.03748"
      inkscape:cy="206.29558"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1018"
+     inkscape:window-height="1030"
      inkscape:window-x="1920"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
@@ -7234,19 +7234,19 @@
     <image
        sodipodi:absref="/home/kou/work/rabbit/slide/hatohol-log-monitoring-2014-10/images/fluentd-icon.png"
        xlink:href="fluentd-icon.png"
-       width="48.621204"
-       height="60.642929"
-       id="image24055"
+       y="305.06314"
        x="786.7337"
-       y="305.06314" />
+       id="image24055"
+       height="60.642929"
+       width="48.621204" />
     <image
        sodipodi:absref="/home/kou/work/rabbit/slide/hatohol-log-monitoring-2014-10/images/fluentd-logotype.png"
        xlink:href="fluentd-logotype.png"
-       width="122.44063"
-       height="29.103037"
-       id="image24117"
+       y="325.71582"
        x="843.8147"
-       y="325.71582" />
+       id="image24117"
+       height="29.103037"
+       width="122.44063" />
     <text
        xml:space="preserve"
        style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
@@ -7593,11 +7593,11 @@
     <image
        sodipodi:absref="/home/kou/work/rabbit/slide/hatohol-log-monitoring-2014-10/images/fluentd-icon.png"
        xlink:href="fluentd-icon.png"
-       y="448.81311"
-       x="39.233704"
-       id="image24653"
+       width="48.621204"
        height="60.642929"
-       width="48.621204" />
+       id="image24653"
+       x="39.233704"
+       y="448.81311" />
     <g
        transform="matrix(0.61417083,0,0,0.61417083,88.66062,454.95715)"
        id="g24657"
@@ -8177,11 +8177,11 @@
     <image
        sodipodi:absref="/home/kou/work/rabbit/slide/hatohol-log-monitoring-2014-10/images/fluentd-icon.png"
        xlink:href="fluentd-icon.png"
-       width="48.621204"
-       height="60.642929"
-       id="image25227"
+       y="572.81311"
        x="39.233704"
-       y="572.81311" />
+       id="image25227"
+       height="60.642929"
+       width="48.621204" />
     <g
        inkscape:label="Layer 1"
        id="g25229"
@@ -8840,19 +8840,15 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans;writing-mode:lr"
        x="312.34998"
        y="357.87689"
        id="text37388"
        sodipodi:linespacing="125%"><tspan
          sodipodi:role="line"
-         x="312.34998"
-         y="357.87689"
-         id="tspan37394">AMQP</tspan><tspan
-         id="tspan37392"
+         id="tspan4393">AMQP</tspan><tspan
          sodipodi:role="line"
-         x="312.34998"
-         y="401.57614">コンシューマー</tspan></text>
+         id="tspan4395">プロデューサー</tspan></text>
     <g
        transform="matrix(1.6863561,0,0,1.6863561,269.03447,433.61677)"
        inkscape:label="Layer 1"
@@ -9182,11 +9178,11 @@
     <image
        sodipodi:absref="/home/kou/work/rabbit/slide/hatohol-log-monitoring-2014-10/images/fluentd-icon.png"
        xlink:href="fluentd-icon.png"
-       y="492.81311"
-       x="265.2337"
-       id="image37474"
+       width="48.621204"
        height="60.642929"
-       width="48.621204" />
+       id="image37474"
+       x="265.2337"
+       y="492.81311" />
     <path
        style="fill:none;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow1Mend)"
        d="m 354.7217,476.16948 106.40202,0"
